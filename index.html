@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week2-Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Week2-Assignment</h1>
+        <h3>Objectives</h3>
+        <!-- ol tag -->
+        <ol type="I">
+            <li>Create a simple HTML page</li>
+            <li>Add an ordered list with roman numerals</li>
+            <li>Add an external image from pexels.com</li>
+            <li>Add a table of 5 contacts with; name, address, mobile and emails</li>
+            <li>Add a registration form</li>
+        </ol>
+        <br><br>
+        <h4>Image</h4>
+        <!-- image tag -->
+        <img src="img/pexels-cottonbro-4709291.jpg" alt="image of a teeneger coding" width="500" height="300">
+        <br><br>
+        <h4>Table</h4>
+        <!-- table tag -->
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>123-456-7890</td>
+                <td>4Tn5l@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>456 Main St</td>
+                <td>123-456-7890</td>
+                <td>4Tn5l@example.com</td>
+            </tr>
+        </table>
+        <br><br>
+        <h4>registration form</h4>
+        <!-- form tag -->
+       <div class="form" style="width: 50%;" padding="10px">
+        <form action="#">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br>
+            <label for="date">Date of Birth: </label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br>
+            <label for="country">Country: </label>
+            <select id="country" name="country" required>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+            <br>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+       </div>
+    
+</body>
+</html>
